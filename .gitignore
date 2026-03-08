@@ -1,0 +1,36 @@
+# 模型权重（极大，不上传）
+checkpoints/
+
+# vLLM / wandb 运行产物
+wandb/
+
+# 生成的评估结果（可复现）
+data/math_baseline/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 包构建产物
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+.venv/
+
+# 个人笔记（不上传）
+作业笔记.md
+具体做了什么记录.md
+翻译作业pdf加备注.md
+评估结果/
+。
+
+# pytest
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
